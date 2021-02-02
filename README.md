@@ -34,7 +34,10 @@ The site's users are prospective new and existing players, looking to find more 
 
 
 ### Skeleton
-![Wireframes preview](wireframespreview.jpg)
+
+#### Wireframes
+
+![Wireframes preview](assets/images/READMEimages/wireframespreview.png)
 
 Wireframes have been created using a mobile first approach. 
-Please [click here](wireframesdesktopandmobile.pdf) to view the PDF showing full wireframes for the site. 
+Please [click here](assets/pdf/ms2wireframe.pdf) to view the PDF showing full wireframes for the site. 
