@@ -1,0 +1,62 @@
+.bg-dark{
+background-color:#000000!important
+}
+
+.navbar a {
+font-family: 'Barlow', sans-serif;
+}
+
+body {
+ font-family: 'Work Sans', sans-serif;
+}
+
+.jumbotron-text {
+    font-size: 0.95rem;
+}
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Crimson Text', serif;
+}
+
+.headerlight {
+ color: white;
+  padding-top: 50px;
+}
+
+.jumbotron {
+  
+  color: white;
+  background-image: url("heroimage2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.mountguide{
+    background: #f9f5f4;
+}
+
+.carousel{
+    background: #ffffff;
+    margin-top: 20px;
+}
+.carousel-item{
+    text-align: center;
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+
+/* Footer */
+.footer-text {
+    color: white;
+}
+
+
+/* Font Awesome Icons */
+
+.fa {
+  color: rgba(238, 236, 236, 0.562);
+}
+
+.fa:hover {
+  color: rgb(187, 177, 177);
+}
