@@ -25,7 +25,7 @@
     
 <!--Logo and navigation-->
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <a class="navbar-brand" alt=""><img src="assets/images/ffmountlogosmall.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -33,16 +33,16 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="nav navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Mount Guide</a>
+        <a class="nav-link" href="#mountguide">Mount Guide</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Gallery</a>
+        <a class="nav-link" href="#gallery">Gallery</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Contact</a>
+        <a class="nav-link" href="#merchandise">Merchandise</a>
       </li>
     </ul>
 </div>
@@ -60,7 +60,7 @@
 </div>
 
 <!-- About Section -->
-
+<section id="about">
 <div class="container">
     <div class="row">
         <div class="col-lg-6 mt-4 mb-5"> <img src="assets/images/aboutimage.png" class="img-fluid" alt="Responsive image">
@@ -80,7 +80,9 @@
         </div>
     </div>
 </div>
+</section>
 
+<section id="mountguide">
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-5 mt-5 mountguide white text-center"> <h1 class="mt-4"> Mount Guide</h1> <br>
@@ -97,10 +99,10 @@
          <img src ="appguidepreview.jpg" class="img-fluid mt-5" alt="App preview image"> 
   </div>
 </div>
+</section>
 
 
-
-
+<section id="gallery">
     <div class="container-fluid">
   <div class="row no-gutters">
     <div class="col-lg-12 mt-5 white text-center"> <h1 class="">Gallery</h1> <br> <p> In game screenshots - showcasing FFXIV mounts throughout Eorzea. </p></div>
@@ -134,7 +136,11 @@
         </a>
         </div>
     </div>
-</div>
+</div> 
+</section>
+
+
+<section id="merchandise">
 <div class="container">
     <div class="row">
       <div class="col-lg-6"><h1 class="mt-4">Merchandise</h1>
@@ -149,6 +155,7 @@
         </div>
     </div>
 </div>
+</section>
 <!-- Footer -->
 
 <footer class="bg-dark text-white text-center text-lg-start">
