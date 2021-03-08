@@ -4,6 +4,12 @@ background-color:#000000!important
 
 .navbar a {
 font-family: 'Barlow', sans-serif;
+color: white;
+}
+
+nav .navbar-brand,
+nav .navbar-text {
+ color: #ffffff;
 }
 
 body {
@@ -35,6 +41,11 @@ h1, h2, h3, h4, h5, h6 {
 .mountguide{
     background: #f9f5f4;
 }
+
+.gallerybackground{
+    background: #aaaaaa;
+}
+
 
 #wrapper { width: 710px; height: 1420px; padding: 0; overflow: hidden; }
 03.
