@@ -82,16 +82,10 @@ zoom: 0.71;
 }
 
 /* Footer */
-footer p{
- font: verdana;
- color: white;
- font-size: 1rem;
-}
 
-footer li{
+.footer-text{
  font: verdana;
- color: white;
- font-size: 1rem;
+ font-size: 0.8rem;
 }
 
 /* Font Awesome Icons */
