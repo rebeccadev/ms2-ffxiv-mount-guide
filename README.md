@@ -160,20 +160,18 @@ Inspiration has been taken from the following websites
 
 
 
-- [Linden Tree Retreat and Ranch](https://www.lindenretreat.com/)
+- [Playstation](https://www.playstation.com/)
 
-![Linden Tree Retreat preview](assets/images/lindenpreview.jpg)
+![Playstation preview](assets/images/READMEimages/pspreview.png)
 
-I really like the use of whitespace and focus on strong imagery
-and typography. I felt like this was something I wanted to utilize within my own project. 
 
-- [Markfield Equestrian Centre](https://www.mecweb.co.uk/) 
 
-![Markfield preview](assets/images/markfieldpreview.jpg)
+- [Guild Wars 2](https://welcome.guildwars2.com/) 
 
-I feel like this riding school website has a good structure for prospective clients to gain information on the riding school with ease. I wanted to emulate this 
-within my project. I was particuarly inspired by the layout of the horses section and this has led me to the use bootstrap cards within this section to provide clear concise information
-on horses at the riding school.
+![Guild Wars preview](assets/images/READMEimages/gw2preview.png)
+
+I really liked the use of whitespace within the Guild Wars 2 website. I also liked the contrast between the header
+and body text. 
 
 **Imagery**
 * [Clean PNG](https://www.cleanpng.com/) royalty free stock images for illustrations used within the website.
