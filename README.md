@@ -155,9 +155,20 @@ The following resources have been used within the project.
 
 ## Credits
 
+
+#Code 
+
+
+- [Build a Pokédex REPLICA with Vanilla JavaScript and the PokéAPI Justin Kim] (https://www.youtube.com/watch?v=wXjSaZb67n8) This tutorial
+has helped me with building my app and understanding the use of APIS. I have edited the CSS of the pokedex for my design. In terms
+of code I have used the tutorial to produce fetch requests and manipulate the dom. It has been such a valuable resource. The tutorial
+uses the Poke API, however since I have used the FFXIV collect API I have had to make my own paging system within javascript. 
+
+- [Bootstrap 4: Carousel / Slider / Slideshow Edgar Lynx] (https://codepen.io/edgarlnx/pen/MBjrMK) Codepen Snippet used for Gallery
+
+
+
 Inspiration has been taken from the following websites
-
-
 
 
 - [Playstation](https://www.playstation.com/)
