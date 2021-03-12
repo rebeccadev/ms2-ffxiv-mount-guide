@@ -164,6 +164,8 @@ Inspiration has been taken from the following websites
 
 ![Playstation preview](assets/images/READMEimages/pspreview.png)
 
+I really liked the use of multiple background colours for sections within the playstation website. I feel this
+helps to organise different content well. 
 
 
 - [Guild Wars 2](https://welcome.guildwars2.com/) 
