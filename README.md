@@ -49,10 +49,9 @@ I liked how clean the websites look, and how they utilize different coloured bac
 
 **Colours**
 
-White space has been used to provide a sense of calm, I have also utilised a golden sand colour (#fafafa) within the logo and footer. 
-This has been used to tie in with the sand in the arena of the riding school and also provides an upmarket feel to the site and brand. 
+White space has been used to provide a sense of calm,
 
-I have used (#ffffff) for my main text to make the typography contrasting and clear to the user against the white background. 
+I have used (#ffffff) for my main text to make the typography contrasting and clear to the user against the white and cream background. 
 and have used (#000000) for my text within the footer section to stand out against the black background. 
 
 **Typography**
@@ -64,12 +63,18 @@ The font Crimson Text has been used for headings - this font works well against 
 
 **Body text**
 
-Work sans has been used for the body text, this sans serif font is clearly legible to the user and contrasts nicely against the heading and navigation font of Lora.
+Work sans has been used for the body text, this sans serif font is clearly legible to the user and contrasts nicely against the heading font.
+
+**Mount Guide text**
+Within the Mount Guide I have used the font VT323 - I used this font as it is reminiscent of old 8-bit style video games and thought
+it fitted well within the mount guide. 
 
 **Imagery**
 
 I have used images from the Final Fantasy franchise within the website. Alot of the images have been obtained from the website
 clean PNG. I wanted to use illustrated images to fit in with the fantasy theme. 
+
+For the gallery I have used screenshots from the video game itself, so users can see what these mounts look like whilst in game.
 
 ---
 ## Features
@@ -121,3 +126,55 @@ The following technologies have been used in the project.
 [GitPod](https://gitpod.io/) - Workspace IDE.
 
 [GitHub](https://github.com/) - Hosting service used to manage my Git repositories.
+
+
+## Resources
+
+The following resources have been used within the project.
+
+
+* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) for editing image sizes and for using the color picker.
+
+* [w3schools.com](https://www.w3schools.com/) - resource to improve general knowledge of HTML and CSS and Javascript
+
+* [Balsamiq](https://balsamiq.com/) - used for the creation of wireframes during UI design stage. 
+
+* [Stack Overflow](https://stackoverflow.com/) - general resource used for technical queries.
+
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used to debug HTML and CSS and to view responsiveness on different screen sizes.
+
+
+## Testing
+
+#### Testing user Stories
+
+**First Time Visitor Goals**
+
+*I want to learn more about the mounts within FFXIV*.
+
+
+## Credits
+
+Inspiration has been taken from the following websites
+
+
+
+
+- [Linden Tree Retreat and Ranch](https://www.lindenretreat.com/)
+
+![Linden Tree Retreat preview](assets/images/lindenpreview.jpg)
+
+I really like the use of whitespace and focus on strong imagery
+and typography. I felt like this was something I wanted to utilize within my own project. 
+
+- [Markfield Equestrian Centre](https://www.mecweb.co.uk/) 
+
+![Markfield preview](assets/images/markfieldpreview.jpg)
+
+I feel like this riding school website has a good structure for prospective clients to gain information on the riding school with ease. I wanted to emulate this 
+within my project. I was particuarly inspired by the layout of the horses section and this has led me to the use bootstrap cards within this section to provide clear concise information
+on horses at the riding school.
+
+**Imagery**
+* [Clean PNG](https://www.cleanpng.com/) royalty free stock images for illustrations used within the website.
+
