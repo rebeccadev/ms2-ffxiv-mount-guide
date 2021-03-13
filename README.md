@@ -7,7 +7,23 @@ FFXIV is one of the most popular video games to date within the MMORPG genre. Th
 new and existing players, similar to a Pokedex in popular RPG Pokemon. The website will build upon existing skills within HTML and CSS and utilize new skills within Javascript, 
 and the use of an API. 
 
- ### Index
+
+Please [click here](https://rebeccadev.github.io/ms2-ffxiv-mount-guide/) to view the website.
+
+### Index
+
+- [Ux](#ux)
+- [Features](#features)
+- [Resources](#resources)
+- [Testing](#testing)
+- [Problems and solutions](#problems-and-solutions)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
+
+
+
+
 
 - [Ux](#ux)
 
@@ -180,7 +196,7 @@ Social Media Links are clearly displayed within the footer, enabling fans to eng
 ## Credits
 
 
-#Code 
+### Code 
 
 
 - [Build a Pokédex REPLICA with Vanilla JavaScript and the PokéAPI Justin Kim](https://www.youtube.com/watch?v=wXjSaZb67n8) This tutorial
@@ -220,3 +236,41 @@ and body text.
 * [Final Fantasy Fandom](https://finalfantasy.fandom.com/wiki/Mount) used for gallery images. 
 
 * [Am I responsive](http://ami.responsivedesign.is/) responsive image generator used for Readme
+
+## Deployment 
+
+The website was deployed to Github pages via the following steps.
+
+1. Log in to Github and locate the websites repository.
+2. Under the repository name click on settings on the top right of the menu.
+3. Under the source section select the dropdown 'None' and Master branch.
+4. The page will automatically refresh.
+5. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+
+### Forking the repository
+Forking enables the user to make a copy of the original repository. To carry this out the following steps need to be taken.
+
+1. Log in to GitHub and locate the websites repository.
+2. At the top right of the Repository click the Fork Button.
+3. There should now be a copy of the repository on github.
+
+### Cloning the repository
+To clone the repository the following steps need to be taken. 
+
+1. On GitHub, navigate to the main page of the repository. 
+2. Click the green Clone or download Button under the repository name. 
+3. Open Git Bash.
+4.Change the current working directory to the location where you want the cloned directory.
+5.Type git clone, and then paste the URL you copied earlier.
+6.Press Enter to create the local clone.
+
+
+## Acknowledgements
+
+
+- My mentor Aaron Sinnott for their helpful feedback. 
+
+- The Code institute slack community
+
+- - Tutor support for help with technical queries. 
