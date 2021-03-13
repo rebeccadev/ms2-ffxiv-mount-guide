@@ -1,8 +1,11 @@
 # FFXIV Mount Guide
 
+![Responsive Preview](assets/images/READMEimages/responsive.png)
+
+
 FFXIV is one of the most popular video games to date within the MMORPG genre. The purpose of the website is to provide information of mounts within the game to both
 new and existing players, similar to a Pokedex in popular RPG Pokemon. The website will build upon existing skills within HTML and CSS and utilize new skills within Javascript, 
-JQuery and the use of an API. 
+and the use of an API. 
 
  ### Index
 
@@ -213,3 +216,7 @@ and body text.
 * [Wallpaper Cave](https://wallpapercave.com/final-fantasy-chocobo-wallpaper) used for the Hero image. 
 
 * [Final Fantasy Fandom](https://finalfantasy.fandom.com/wiki/Mount) used for gallery images. 
+
+* [Final Fantasy Fandom](https://finalfantasy.fandom.com/wiki/Mount) used for gallery images. 
+
+* [Am I responsive](http://ami.responsivedesign.is/) responsive image generator used for Readme
