@@ -24,12 +24,6 @@ Please [click here](https://rebeccadev.github.io/ms2-ffxiv-mount-guide/) to view
 
 
 
-
-- [Ux](#ux)
-
-
-
-
 ## UX
  
 ### Aims
@@ -273,4 +267,4 @@ To clone the repository the following steps need to be taken.
 
 - The Code institute slack community
 
-- - Tutor support for help with technical queries. 
+- Tutor support for help with technical queries. 
