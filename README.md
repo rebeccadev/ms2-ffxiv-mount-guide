@@ -149,19 +149,30 @@ The following resources have been used within the project.
 #### Testing user Stories
 
 *I want to learn more about the mounts within FFXIV*.
+
 ![Mount guide preview](assets/images/READMEimages/userstorymountinfo.png)
+
+The main way the user can learn more about the mounts within the game is to use the mount guide. 
+This connects to an API FFXIV Collect where users can obtain information on mounts within FFXIV.
 
 
 *I would like to see a gallery showcasing the Mounts in game*.
 ![Gallery preview](assets/images/READMEimages/userstorygallery.png)
 
+The gallery contains screenshots, which bring the descriptions of the mounts to life.
+
 
 *I would like to keep up to date with news on FFXIV.*
 ![Newsletter preview](assets/images/READMEimages/userstorynewsletter.png)
 
+There is a newsletter section on the site aswell as a newsletter section within the footer section.
+
 
 *I would like to engage with other fans of FFXIV*.
 ![Social media preview](assets/images/READMEimages/userstorysocial.png)
+
+Social Media Links are clearly displayed within the footer, enabling fans to engage on different social media platforms. 
+
 
 ## Credits
 
@@ -199,3 +210,6 @@ and body text.
 **Imagery**
 * [Clean PNG](https://www.cleanpng.com/) royalty free stock images for illustrations used within the website.
 
+* [Wallpaper Cave](https://wallpapercave.com/final-fantasy-chocobo-wallpaper) used for the Hero image. 
+
+* [Final Fantasy Fandom](https://finalfantasy.fandom.com/wiki/Mount) used for gallery images. 
