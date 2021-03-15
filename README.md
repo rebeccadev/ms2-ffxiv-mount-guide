@@ -41,7 +41,7 @@ The site's users are prospective new and existing players, looking to find more 
 #### User Stories
 > -  *I want to learn more about the mounts within FFXIV*.
 > -  *I would like to see a gallery showcasing the Mounts in game*.
-> -  *I would like to keep up to date with news on FFXIV.
+> -  *I would like to keep up to date with news on FFXIV.*
 > -  *I would like to engage with other fans of FFXIV*.
 
 
@@ -105,6 +105,10 @@ For the gallery I have used screenshots from the video game itself, so users can
 
 These are features that lie out of the current scope, but could be added when knowledge of development increases.
 
+- User generated gallery - players can interact by uploading their own screenshots.
+
+- Blog - A blog with updates on FFXIV, enabling visitors to the websites to leave comments and interact. 
+
 
 ## Technologies 
 
@@ -155,6 +159,12 @@ The following resources have been used within the project.
 * [Stack Overflow](https://stackoverflow.com/) - general resource used for technical queries.
 
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used to debug HTML and CSS and to view responsiveness on different screen sizes.
+
+* [Youtube](https://www.youtube.com/) - used a general resource to improve knowledge of javascript
+
+* [Build a Pokedex with Vanilla HTML, CSS, and JavaScript](https://www.youtube.com/watch?v=T-VQUKeSU1w) - tutorial by James Q Quick
+
+
 
 
 ## Testing
