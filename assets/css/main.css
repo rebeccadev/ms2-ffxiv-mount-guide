@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 .jumbotron {
   
   color: white;
-  background-image: url("assets/images/heroimage2.jpg");
+  background-image: url("../images/heroimage2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
