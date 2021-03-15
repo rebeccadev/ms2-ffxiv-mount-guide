@@ -10,7 +10,7 @@ body {
     display: flex;
     font-family: sans-serif;
     justify-content: center;
-    background-image: url("assets/images/logopattern.png");
+    background-image: url("../images/logopattern.png");
     background-repeat: repeat;
 }
 
