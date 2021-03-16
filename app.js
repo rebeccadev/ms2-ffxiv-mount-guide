@@ -8,8 +8,8 @@ const mountHeight = document.querySelector('.mount-height');
 const MountDescription = document.querySelector('.mount-description');
 const tooltip = document.querySelector('.tooltip');
 const mountListItems = document.querySelectorAll('.list-item');
-const leftButton = document.querySelector('.left-button')
-const rightButton = document.querySelector('.right-button')
+const leftButton = document.querySelector('.left-button');
+const rightButton = document.querySelector('.right-button');
 
 
 // variables 
@@ -82,18 +82,18 @@ const fetchMountData = mountId => {
     .then(data => {
         console.log(data);
         mainScreen.classList.remove('hide');
-        mountName.textContent = data['name'];
-        mountIdNumber.textContent = '#' + data['id'].toString().padStart(3,0,0);
-        mountWeight.textContent = data['movement'];
-        mountHeight.textContent = data['seats'];
-        MountDescription.textContent = data['description'];
-        tooltip.textContent = data['tooltip'];
+        mountName.textContent = data['.name'];
+        mountIdNumber.textContent = '#' + data['.id'].toString().padStart(3,0,0);
+        mountWeight.textContent = data['.movement'];
+        mountHeight.textContent = data['.seats'];
+        MountDescription.textContent = data['.description'];
+        tooltip.textContent = data['.tooltip'];
 
 
-        mountFrontImage.src = data['image'];
+        mountFrontImage.src = data['.image'];
 
     });
-}
+};
 
 
 
