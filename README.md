@@ -194,7 +194,23 @@ There is a newsletter section on the site aswell as a newsletter section within 
 *I would like to engage with other fans of FFXIV*.
 ![Social media preview](assets/images/READMEimages/userstorysocial.png)
 
+
+
+
 Social Media Links are clearly displayed within the footer, enabling fans to engage on different social media platforms. 
+
+Testing tools 
+
+[W3C Markup Validation Service](https://validator.w3.org/) was used to test HTML
+- 2 x errors were found where image tags didn't have alt atributes. These were fixed and the index.html was then free of errors.
+
+[Jigsaw Validation Service](https://jigsaw.w3.org/css-validator/) was used to test CSS. This was found to be free of errors. 
+
+
+[JS Hint](https://jshint.com/) was used to test JS for errors. 
+- 2 x errors where semi colons needed to be added
+- 7 errors relating to dot notation 	'image' is better written in dot notation.
+These were then corrected in the JS file. 
 
 
 ## Credits
