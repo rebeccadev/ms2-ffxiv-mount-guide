@@ -199,18 +199,51 @@ There is a newsletter section on the site aswell as a newsletter section within 
 
 Social Media Links are clearly displayed within the footer, enabling fans to engage on different social media platforms. 
 
-Testing tools 
+#### Testing tools 
 
 [W3C Markup Validation Service](https://validator.w3.org/) was used to test HTML
-- 2 x errors were found where image tags didn't have alt atributes. These were fixed and the index.html was then free of errors.
+- 2 x errors were found where image tags didn't have alt attributes. These were fixed and the index.html was then free of errors.
 
 [Jigsaw Validation Service](https://jigsaw.w3.org/css-validator/) was used to test CSS. This was found to be free of errors. 
 
 
 [JS Hint](https://jshint.com/) was used to test JS for errors. 
-- 2 x errors where semi colons needed to be added
-- 7 errors relating to dot notation 	'image' is better written in dot notation.
-These were then corrected in the JS file. 
+- 2 x errors where semi colons needed to be added.
+- 7 x errors relating to dot notation, e.g	'image' is better written in dot notation.
+
+#### Manual testing log
+
+A manual testing log was carried out on Google Chrome, Microsoft Edge and Firefox. The results are displayed below.
+
+![Manual testing log](assets/images/READMEimages/manualtestinglog.png)
+
+
+#### Responsiveness
+
+Google Chrome developer tools was used to test the responsiveness. I used media queries to ensure the website scaled down to mobile correctly.
+I also manually tested this on a Google Pixel 3a mobile device.
+
+![mobile responsive image](assets/images/READMEimages/mobileresponsive.png)
+
+
+## Problems and solutions
+
+#### Design
+
+- I initially chose a different image for my hero image, however when scaling down to mobile I couldn't find a font colour which stood out against the background enough
+to make it a viable design with good usability. I opted for a different hero image which contained alot of whitespace which helped me overcome this problem. 
+
+#### Overflow
+
+- There was overflow when viewing the website both on PC and in mobile form. I found the problem to be from the jumbotron text which had an offset property. Removing
+the offset property solved this problem. 
+
+
+#### App design 
+
+- I had originally intended to have the mount guide app appear in the index.html, however because the app uses CSS flexbox this CSS was contrasting with the Bootstrap framework.
+To solve this problem I initally tried to place the app into an iframe, this however did not work well. The next solution was to make the app appear within a pop up window
+so it would display properly. 
 
 
 ## Credits
