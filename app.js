@@ -82,15 +82,15 @@ const fetchMountData = mountId => {
     .then(data => {
         console.log(data);
         mainScreen.classList.remove('hide');
-        mountName.textContent = data['.name'];
-        mountIdNumber.textContent = '#' + data['.id'].toString().padStart(3,0,0);
-        mountWeight.textContent = data['.movement'];
-        mountHeight.textContent = data['.seats'];
-        MountDescription.textContent = data['.description'];
-        tooltip.textContent = data['.tooltip'];
+        mountName.textContent = data['name'];
+        mountIdNumber.textContent = '#' + data['id'].toString().padStart(3,0,0);
+        mountWeight.textContent = data['movement'];
+        mountHeight.textContent = data['seats'];
+        MountDescription.textContent = data['description'];
+        tooltip.textContent = data['tooltip'];
 
 
-        mountFrontImage.src = data['.image'];
+        mountFrontImage.src = data['image'];
 
     });
 };
