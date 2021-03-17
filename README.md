@@ -50,7 +50,7 @@ The site's users are prospective new and existing players, looking to find more 
 
 #### Wireframes
 
-![Wireframes preview](assets/images/READMEimages/wireframespreview.png)
+![Wireframes preview](assets/readmedocumentation/wireframespreview.png)
 
 Wireframes have been created using a mobile first approach. 
 Please [click here](assets/ms2wireframes.pdf) to view the PDF showing full wireframes for the site. 
@@ -173,16 +173,18 @@ The following resources have been used within the project.
 
 *I want to learn more about the mounts within FFXIV*.
 
+ - The main way the user can learn more about the mounts within the game is to use the mount guide. 
+This connects to an API FFXIV Collect where users can obtain information on mounts within FFXIV.
+
 ![Mount guide preview](assets/images/READMEimages/userstorymountinfo.png)
 
-The main way the user can learn more about the mounts within the game is to use the mount guide. 
-This connects to an API FFXIV Collect where users can obtain information on mounts within FFXIV.
 
 
 *I would like to see a gallery showcasing the Mounts in game*.
+
+-The gallery contains screenshots, which bring the descriptions of the mounts to life.
 ![Gallery preview](assets/images/READMEimages/userstorygallery.png)
 
-The gallery contains screenshots, which bring the descriptions of the mounts to life.
 
 
 *I would like to keep up to date with news on FFXIV.*
@@ -245,6 +247,33 @@ the offset property solved this problem.
 To solve this problem I initally tried to place the app into an iframe, this however did not work well. The next solution was to make the app appear within a pop up window
 so it would display properly. 
 
+## Deployment 
+
+The website was deployed to Github pages via the following steps.
+
+1. Log in to Github and locate the websites repository.
+2. Under the repository name click on settings on the top right of the menu.
+3. Under the source section select the dropdown 'None' and Master branch.
+4. The page will automatically refresh.
+5. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+
+### Forking the repository
+Forking enables the user to make a copy of the original repository. To carry this out the following steps need to be taken.
+
+1. Log in to GitHub and locate the websites repository.
+2. At the top right of the Repository click the Fork Button.
+3. There should now be a copy of the repository on github.
+
+### Cloning the repository
+To clone the repository the following steps need to be taken. 
+
+1. On GitHub, navigate to the main page of the repository. 
+2. Click the green Clone or download Button under the repository name. 
+3. Open Git Bash.
+4.Change the current working directory to the location where you want the cloned directory.
+5.Type git clone, and then paste the URL you copied earlier.
+6.Press Enter to create the local clone.
 
 ## Credits
 
@@ -290,33 +319,6 @@ and body text.
 
 * [Am I responsive](http://ami.responsivedesign.is/) responsive image generator used for Readme
 
-## Deployment 
-
-The website was deployed to Github pages via the following steps.
-
-1. Log in to Github and locate the websites repository.
-2. Under the repository name click on settings on the top right of the menu.
-3. Under the source section select the dropdown 'None' and Master branch.
-4. The page will automatically refresh.
-5. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
-
-
-### Forking the repository
-Forking enables the user to make a copy of the original repository. To carry this out the following steps need to be taken.
-
-1. Log in to GitHub and locate the websites repository.
-2. At the top right of the Repository click the Fork Button.
-3. There should now be a copy of the repository on github.
-
-### Cloning the repository
-To clone the repository the following steps need to be taken. 
-
-1. On GitHub, navigate to the main page of the repository. 
-2. Click the green Clone or download Button under the repository name. 
-3. Open Git Bash.
-4.Change the current working directory to the location where you want the cloned directory.
-5.Type git clone, and then paste the URL you copied earlier.
-6.Press Enter to create the local clone.
 
 
 ## Acknowledgements
