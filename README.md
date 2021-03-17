@@ -41,7 +41,7 @@ The site's users are prospective new and existing players, looking to find more 
 #### User Stories
 > -  *I want to learn more about the mounts within FFXIV*.
 > -  *I would like to see a gallery showcasing the Mounts in game*.
-> -  *I would like to keep up to date with news on FFXIV.*
+> -  *I would like to keep up to date with the latest news on FFXIV.*
 > -  *I would like to engage with other fans of FFXIV*.
 
 
@@ -50,7 +50,7 @@ The site's users are prospective new and existing players, looking to find more 
 
 #### Wireframes
 
-![Wireframes preview](assets/readmedocumentation/wireframespreview.png)
+![Wireframes preview](readmedocumentation/READMEimages/wireframespreview.png)
 
 Wireframes have been created using a mobile first approach. 
 Please [click here](readmedocumentation/READMEimages/ms2wireframes.pdf) to view the PDF showing full wireframes for the site. 
@@ -172,8 +172,7 @@ The following resources have been used within the project.
 #### Testing user Stories
 
 *I want to learn more about the mounts within FFXIV*.
-
- - The main way the user can learn more about the mounts within the game is to use the mount guide. 
+- The main way the user can learn more about the mounts within the game is to use the mount guide. 
 This connects to an API FFXIV Collect where users can obtain information on mounts within FFXIV.
 
 ![Mount guide preview](readmedocumentation/READMEimages/userstorymountinfo.png)
@@ -181,25 +180,26 @@ This connects to an API FFXIV Collect where users can obtain information on moun
 
 
 *I would like to see a gallery showcasing the Mounts in game*.
-
 -The gallery contains screenshots, which bring the descriptions of the mounts to life.
 ![Gallery preview](readmedocumentation/READMEimages/userstorygallery.png)
 
 
 
 *I would like to keep up to date with news on FFXIV.*
+- There is a newsletter section on the site aswell as a newsletter section within the footer section.
 ![Newsletter preview](readmedocumentation/READMEimages/userstorynewsletter.png)
 
-There is a newsletter section on the site aswell as a newsletter section within the footer section.
+
 
 
 *I would like to engage with other fans of FFXIV*.
+-Social Media Links are clearly displayed within the footer, enabling fans to engage on different social media platforms. 
 ![Social media preview](readmedocumentation/READMEimages/userstorysocial.png)
 
 
 
 
-Social Media Links are clearly displayed within the footer, enabling fans to engage on different social media platforms. 
+
 
 #### Testing tools 
 
