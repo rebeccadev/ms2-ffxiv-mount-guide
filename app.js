@@ -20,20 +20,20 @@ let totalPages = 0;
 
 // Paging
 const page = newPageNumber => {
-  if(newPageNumber < 0 || newPageNumber >= totalPages) {
-    return;
-  }
-  
-  currentPage = newPageNumber;
-  fetchMountData(allMountIds[newPageNumber]);
+    if (newPageNumber < 0 || newPageNumber >= totalPages) {
+        return;
+    }
+
+    currentPage = newPageNumber;
+    fetchMountData(allMountIds[newPageNumber]);
 };
 
 // Click events
 const handleLeftButtonClick = (e) => {
-  page(currentPage - 1);
+    page(currentPage - 1);
 };
 const handleRightButtonClick = (e) => {
-  page(currentPage + 1);
+    page(currentPage + 1);
 };
 
 const handleListItemClick = (e) => {
@@ -52,23 +52,28 @@ fetch('https://ffxivcollect.com/api/mounts')
         return res.json();
     })
     .then(data => {
-        const { results } = data;
+        const {
+            results
+        } = data;
         results.reverse();
 
         allMountIds = results.map(results => results.id);
 
-        for (let i = 0; i < mountListItems.length ; i++) {
+        for (let i = 0; i < mountListItems.length; i++) {
             const mountListItem = mountListItems[i];
             const resultData = results[i];
 
             if (resultData) {
-                const { name, id} = resultData;                
+                const {
+                    name,
+                    id
+                } = resultData;
                 mountListItem.textContent = id + '. ' + name;
             } else {
                 mountListItem.textContent = '';
             }
         }
-  
+
         // update the current mount id and paging info
         totalPages = allMountIds.length;
     });
@@ -76,30 +81,30 @@ fetch('https://ffxivcollect.com/api/mounts')
 
 const fetchMountData = mountId => {
     fetch(`https://ffxivcollect.com/api/mounts/${mountId}`)
-    .then(res => {
-        return   res.json();
-    })
-    .then(data => {
-        console.log(data);
-        mainScreen.classList.remove('hide');
-        mountName.textContent = data['name'];
-        mountIdNumber.textContent = '#' + data['id'].toString().padStart(3,0,0);
-        mountWeight.textContent = data['movement'];
-        mountHeight.textContent = data['seats'];
-        MountDescription.textContent = data['description'];
-        tooltip.textContent = data['tooltip'];
+        .then(res => {
+            return res.json();
+        })
+        .then(data => {
+            console.log(data);
+            mainScreen.classList.remove('hide');
+            mountName.textContent = data.name;
+            mountIdNumber.textContent = '#' + data.id.toString().padStart(3, 0, 0);
+            mountWeight.textContent = data.movement;
+            mountHeight.textContent = data.seats;
+            MountDescription.textContent = data.description;
+            tooltip.textContent = data.tooltip;
 
 
-        mountFrontImage.src = data['image'];
+            mountFrontImage.src = data.image;
 
-    });
+        });
 };
 
 
 
 // Event listeners
-rightButton.addEventListener('click', handleRightButtonClick); 
-leftButton.addEventListener('click', handleLeftButtonClick); 
+rightButton.addEventListener('click', handleRightButtonClick);
+leftButton.addEventListener('click', handleLeftButtonClick);
 
 for (const mountListItem of mountListItems) {
     mountListItem.addEventListener('click', handleListItemClick);
