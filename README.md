@@ -1,6 +1,6 @@
 # FFXIV Mount Guide
 
-![Responsive Preview](assets/images/READMEimages/responsive.png)
+![Responsive Preview](readmedocumentation/READMEimages/responsive.png)
 
 
 FFXIV is one of the most popular video games to date within the MMORPG genre. The purpose of the website is to provide information of mounts within the game to both
