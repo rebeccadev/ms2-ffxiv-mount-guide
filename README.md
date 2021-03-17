@@ -53,7 +53,7 @@ The site's users are prospective new and existing players, looking to find more 
 ![Wireframes preview](assets/readmedocumentation/wireframespreview.png)
 
 Wireframes have been created using a mobile first approach. 
-Please [click here](assets/ms2wireframes.pdf) to view the PDF showing full wireframes for the site. 
+Please [click here](readmedocumentation/READMEimages/ms2wireframes.pdf) to view the PDF showing full wireframes for the site. 
 
 ### Surface
 I have taken on inspiration from gaming websites such as the Playstation website and website for popular mmo Guild Wars 2. 
@@ -176,25 +176,25 @@ The following resources have been used within the project.
  - The main way the user can learn more about the mounts within the game is to use the mount guide. 
 This connects to an API FFXIV Collect where users can obtain information on mounts within FFXIV.
 
-![Mount guide preview](assets/images/READMEimages/userstorymountinfo.png)
+![Mount guide preview](readmedocumentation/READMEimages/userstorymountinfo.png)
 
 
 
 *I would like to see a gallery showcasing the Mounts in game*.
 
 -The gallery contains screenshots, which bring the descriptions of the mounts to life.
-![Gallery preview](assets/images/READMEimages/userstorygallery.png)
+![Gallery preview](readmedocumentation/READMEimages/userstorygallery.png)
 
 
 
 *I would like to keep up to date with news on FFXIV.*
-![Newsletter preview](assets/images/READMEimages/userstorynewsletter.png)
+![Newsletter preview](readmedocumentation/READMEimages/userstorynewsletter.png)
 
 There is a newsletter section on the site aswell as a newsletter section within the footer section.
 
 
 *I would like to engage with other fans of FFXIV*.
-![Social media preview](assets/images/READMEimages/userstorysocial.png)
+![Social media preview](readmedocumentation/READMEimages/userstorysocial.png)
 
 
 
@@ -217,7 +217,7 @@ Social Media Links are clearly displayed within the footer, enabling fans to eng
 
 A manual testing log was carried out on Google Chrome, Microsoft Edge and Firefox. The results are displayed below.
 
-![Manual testing log](assets/images/READMEimages/manualtestinglog.png)
+![Manual testing log](readmedocumentation/READMEimages/manualtestinglog.png)
 
 
 #### Responsiveness
@@ -225,7 +225,7 @@ A manual testing log was carried out on Google Chrome, Microsoft Edge and Firefo
 Google Chrome developer tools was used to test the responsiveness. I used media queries to ensure the website scaled down to mobile correctly.
 I also manually tested this on a Google Pixel 3a mobile device.
 
-![mobile responsive image](assets/images/READMEimages/mobileresponsive.png)
+![mobile responsive image](readmedocumentation/READMEimages/mobileresponsive.png)
 
 
 ## Problems and solutions
@@ -295,7 +295,7 @@ Inspiration has been taken from the following websites
 
 - [Playstation](https://www.playstation.com/)
 
-![Playstation preview](assets/images/READMEimages/pspreview.png)
+![Playstation preview](readmedocumentation/READMEimages/pspreview.png)
 
 I really liked the use of multiple background colours for sections within the playstation website. I feel this
 helps to organise different content well. 
@@ -303,7 +303,7 @@ helps to organise different content well.
 
 - [Guild Wars 2](https://welcome.guildwars2.com/) 
 
-![Guild Wars preview](assets/images/READMEimages/gw2preview.png)
+![Guild Wars preview](readmedocumentation/READMEimages/gw2preview.png)
 
 I really liked the use of whitespace within the Guild Wars 2 website. I also liked the contrast between the header
 and body text. 
